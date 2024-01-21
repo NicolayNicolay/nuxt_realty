@@ -1,0 +1,52 @@
+.fz-x-small {
+  font-size: var(--font-size-x-small);
+}
+
+.fz-small {
+  font-size: var(--font-size-small);
+}
+
+.fz-normal {
+  font-size: var(--font-size-normal);
+}
+
+.fz-x-medium {
+  font-size: var(--font-size-medium);
+}
+
+.fz-x-large {
+  font-size: 60px;
+}
+
+.fz-large {
+  font-size: 44px;
+}
+
+.border-bottom-dashed {
+  border-bottom: 1px dashed;
+}
+
+.green-table {
+  thead {
+    background: #439f49;
+    color: #ffffff;
+    --bs-border-width: 0;
+    overflow: hidden;
+
+    tr > th {
+      &:first-of-type {
+        border-top-left-radius: 7px;
+      }
+
+      &:last-of-type {
+        border-top-right-radius: 7px;
+      }
+    }
+  }
+}
+
+.table {
+  & > :not(caption) > * > * {
+    padding: 0.7rem 1.5rem;
+  }
+}

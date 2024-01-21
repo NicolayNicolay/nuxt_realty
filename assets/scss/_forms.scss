@@ -1,0 +1,69 @@
+.form-control {
+  --bs-border-radius: 5px;
+  color: #B9BFCB;
+  box-shadow: 0 3px 5px 0 #0000001A;
+  &.is-invalid {
+    background-color: #fffafa;
+    background-size: 1.2rem;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #86898f !important;
+    }
+  }
+
+  &:disabled {
+    background: #f2f2f2;
+    color: #8b8b8b;
+  }
+
+  &:focus {
+    box-shadow: none;
+    border-color: #222222;
+  }
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #B9BFCB;
+  opacity: 1; /* Firefox */
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+input::-moz-placeholder { color: #B9BFCB; }
+input::-webkit-input-placeholder { color: #B9BFCB; }
+.form-select {
+  color: #B9BFCB;
+  --bs-form-select-bg-img: url("/images/svg/chevron-down.svg");
+  background-position: right 0.8125rem center;
+  &.is-invalid {
+    background-color: #fffafa;
+    background-size: 0.8rem 0.8rem, 1.2rem 1.2rem !important;
+
+    &:focus {
+      box-shadow: none;
+      border-color: #86898f;
+    }
+  }
+
+  &:focus {
+    box-shadow: none;
+    border-color: #222222;
+  }
+}
+
+.form-label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form-help-badge {
+  width: 15px;
+  height: 15px;
+  padding: 2px 0 0 0;
+  margin: 0 0 0 5px;
+}
+
+.form-help-text {
+  padding: 1rem 1.5rem;
+  max-width: 300px;
+}

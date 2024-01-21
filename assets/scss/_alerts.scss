@@ -1,0 +1,19 @@
+.alert {
+  --bs-alert-border: none;
+  --bs-alert-border-radius: 10px;
+}
+
+.alert-warning {
+  --bs-alert-bg: #fcf8e3;
+  --bs-alert-color: #212121;
+}
+
+.alert-success{
+  --bs-alert-bg: #e0efd8;
+  --bs-alert-color: #212121;
+}
+
+.alert-danger {
+  --bs-alert-bg: #ffeeee;
+  --bs-alert-color: #212121;
+}

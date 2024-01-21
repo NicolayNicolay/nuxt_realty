@@ -1,0 +1,139 @@
+.bd-header {
+  position: relative;
+  a{
+    text-shadow: 0 1px 4px #605454;
+  }
+  .bd-header-start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .header-first-row {
+      margin-top: 0.9rem;
+      @include media-breakpoint-down(sm) {
+        padding: 0 1rem;
+      }
+      .logo{
+        img{
+          width: 13.75rem;
+          height: 3.5625rem;
+          @include media-breakpoint-down(sm) {
+            width: 10.8125rem;
+            height: 2.8125rem;
+          }
+        }
+      }
+    }
+    .header-second-row {
+      margin-top: 1.125rem;
+      .menu {
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+        .menu-item {
+          padding-top: 1.0625rem;
+          position: relative;
+          font-family: 'Roboto', serif;
+
+          :hover:before {
+            background-color: #FFFFFF;
+            border-radius: 2px;
+            top: -3px;
+            content: "";
+            display: block;
+            height: 4px;
+            position: absolute;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .bd-header-background {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(40 35 35 / 90%);
+    img{
+      width: 100%;
+      opacity: 0.6;
+    }
+  }
+  .header{
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+    padding-bottom: 20px;
+  }
+  .sales-badge{
+    position: absolute;
+    right: -3.1875rem;
+    bottom: 7.25rem;
+    display: flex;
+    background-color: $secondary;
+    color: white;
+    border-radius: 6px 6px 0 0;
+    padding: 14px 28px;
+    font-weight: 500;
+    align-items: center;
+    transform: rotate(270deg);
+    font-size: 1.5rem;
+    text-shadow: none;
+    svg{
+      margin-left: 0.5625rem;
+      transform: rotate(90deg);
+    }
+  }
+  .circle-badge{
+    background-color: $secondary;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7.25rem;
+    left: 4.1875rem;
+    flex-direction: column;
+    text-shadow: none;
+    color: white;
+    width: 8.9375rem;
+    height: 8.9375rem;
+    font-size: 0.75rem;
+    line-height: 14.4px;
+    svg{
+      margin-bottom: 0.6rem;
+    }
+  }
+  .chevron-badge{
+    position: absolute;
+    bottom: 0.875rem;
+    left: 50%;
+  }
+  .phone-block {
+    a {
+      @include media-breakpoint-down(xl) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .wts-btn {
+    margin-left: 1.875rem;
+  }
+  .mobile-menu{
+    padding-top: .2rem;
+    .icon{
+      width: 2.3125rem;
+      height: 2.3125rem;
+      margin-left: 1.625rem;
+      @media (max-width: 380px) {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1.3rem;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,131 @@
+.footer {
+  background-color: #323846;
+  padding-top: 3.375rem;
+  padding-bottom: 4.75rem;
+  @include media-breakpoint-down(sm) {
+    padding: 40px 21px 48px 24px;
+  }
+
+  .fs-20 {
+    @include media-breakpoint-down(sm) {
+      font-size: 1rem;
+      color: #60C3D0;
+    }
+  }
+
+  .logo-footer {
+    width: 11rem;
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+    }
+    @include media-breakpoint-down(md) {
+      width: 15rem;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 8.125rem;
+    }
+  }
+
+  .policy {
+    margin-top: 2.125rem;
+    font-size: 0.75rem;
+    @include media-breakpoint-down(md) {
+      margin-left: 1rem;
+    }
+
+    a {
+      @include media-breakpoint-down(md) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .content {
+    padding-top: 0.7rem;
+    @include media-breakpoint-down(lg) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    @include media-breakpoint-down(sm) {
+      padding-right: 1.5rem;
+    }
+
+    button {
+      margin-left: 1.75rem;
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+        margin-top: 0.9rem;
+      }
+    }
+
+    .items {
+      margin-top: 2rem;
+      display: flex;
+      border-top: 1px solid rgb(255, 255, 255, .5);
+      width: 100%;
+      @include media-breakpoint-down(lg) {
+        flex-wrap: wrap;
+      }
+      @include media-breakpoint-down(sm) {
+        margin-top: 1.5625rem;
+        flex-wrap: inherit;
+        flex-direction: column;
+      }
+
+      .item {
+        margin-right: 2.4375rem;
+        padding-top: 2rem;
+        @include media-breakpoint-down(sm) {
+          align-items: center;
+          padding-top: 1.625rem;
+        }
+
+        svg {
+          margin-top: 0.1875rem;
+        }
+
+        .text {
+          margin-left: 0.625rem;
+          color: white;
+          max-width: 9.8125rem;
+          @include media-breakpoint-down(sm) {
+            max-width: 100%;
+          }
+        }
+      }
+
+      .links {
+        padding-top: 1.8125rem;
+        margin-left: 2.6875rem;
+        @include media-breakpoint-down(sm) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  .phone-wrapper {
+    @include media-breakpoint-down(md) {
+      margin-top: 2.25rem;
+    }
+
+    a {
+      @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .mt-m-10 {
+    @include media-breakpoint-up(lg) {
+      margin-top: -0.625rem;
+    }
+  }
+
+  .wats {
+    position: absolute;
+    right: 1.3125rem;
+    bottom: 1.5rem;
+  }
+}

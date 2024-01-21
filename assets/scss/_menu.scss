@@ -1,0 +1,34 @@
+.menu-items {
+  padding: 15px 0;
+  font-size: 15px;
+
+  .menu-title {
+    font-weight: 600;
+    padding: 0 15px 10px 15px;
+  }
+
+  .menu-item {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--bs-success);
+    }
+  }
+}
+
+.list-group {
+  --bs-list-group-item-padding-y: 10px;
+
+  .list-group-item {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  a:hover {
+    color: var(--bs-success);
+  }
+}

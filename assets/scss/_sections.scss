@@ -1,0 +1,302 @@
+//Common section
+section {
+  @include media-breakpoint-down(sm) {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+
+.common-section {
+  @include media-breakpoint-down(sm) {
+    padding: 3.125rem 1.25rem;
+  }
+
+  h5 {
+    @include media-breakpoint-down(sm) {
+      line-height: 2.25rem;
+    }
+  }
+
+  .content {
+    @include media-breakpoint-down(lg) {
+      padding-left: 0;
+      margin-top: 1.625rem;
+      padding-bottom: .5rem;
+    }
+  }
+}
+
+//form section
+.form-index-2 {
+  @include media-breakpoint-down(sm) {
+    padding-top: 3.125rem !important;
+    padding-bottom: 3rem;
+  }
+
+  .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .row {
+    @include media-breakpoint-down(lg) {
+      margin-top: 2.0625rem !important;
+    }
+  }
+
+  h5 {
+    @include media-breakpoint-down(xl) {
+      font-size: 2.5rem;
+    }
+    @include media-breakpoint-down(lg) {
+      line-height: 2.2rem;
+      font-size: 2.2rem;
+    }
+  }
+
+  h6 {
+    @include media-breakpoint-down(xl) {
+      font-size: 2.25rem;
+    }
+    @include media-breakpoint-down(lg) {
+      line-height: 2rem;
+      font-size: 1.7rem;
+    }
+  }
+
+  .h7 {
+    @include media-breakpoint-down(lg) {
+      font-size: 1.55rem;
+    }
+  }
+
+  .right-part {
+    @include media-breakpoint-down(lg) {
+      margin-top: 1.5rem;
+    }
+
+    button {
+      @media (max-width: 385px) {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+// Options section
+.options-index {
+  background-color: #ECF7F9;
+  padding-top: 5.6875rem;
+  padding-bottom: 9.9375rem;
+  @include media-breakpoint-down(sm) {
+    padding-top: 3.125rem;
+    padding-bottom: 7.125rem;
+  }
+  @include media-breakpoint-down(xl) {
+    margin-top: 1.5rem;
+  }
+
+  .options-swiper {
+    .swiper {
+      box-shadow: 0 4px 25px 0 #00000014;
+    }
+
+    .hs-100 {
+      @include media-breakpoint-up(lg) {
+        height: 100%;
+      }
+    }
+
+    .img-wrapper {
+      img {
+        @include media-breakpoint-up(lg) {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+  h6{
+    @include media-breakpoint-up(sm) {
+      line-height: 2.5rem;
+    }
+  }
+  .slide-wrapper {
+    .row, .col {
+      height: 100%;
+    }
+  }
+
+  .area-block {
+    padding-top: 1.5625rem;
+    letter-spacing: 0.125rem;
+
+    .value {
+      color: #323846;
+      font-weight: 600;
+    }
+  }
+
+  .area-block > .h7 {
+    @include media-breakpoint-up(lg) {
+      max-width: 8.5rem;
+    }
+  }
+
+  .h7 {
+    @include media-breakpoint-down(sm) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .slide-btn {
+    margin-top: 3.125rem;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    height: 100%;
+    @include media-breakpoint-up(lg) {
+      padding: 1.9375rem 0 2rem 2.5rem;
+    }
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 2.1875rem;
+    }
+  }
+
+  .slide-wrapper {
+    max-width: 100%;
+    border-radius: 1rem;
+    background-color: white;
+    @include media-breakpoint-up(lg) {
+      height: 34.375rem;
+    }
+    @include media-breakpoint-down(lg) {
+      padding: 2.0625rem 2.25rem 1.75rem 2.25rem;
+    }
+
+    img {
+      @include media-breakpoint-down(lg) {
+        max-height: 16.875rem;
+      }
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+    }
+  }
+
+  .swiper-filter {
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 1.5625rem;
+    }
+
+    a:first-of-type {
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+      }
+    }
+
+    a {
+      @media (max-width: 400px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.btn-lg {
+  margin-top: 3.125rem;
+  --bs-btn-padding-x: 3.125rem;
+  @include media-breakpoint-down(lg) {
+    margin-top: 1.625rem;
+  }
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    padding: 1.1875rem;
+  }
+}
+
+.slide-content {
+  @include media-breakpoint-up(lg) {
+    padding: 5.8125rem 7rem 6.5625rem 3.125rem;
+  }
+}
+
+h6 {
+  line-height: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  @include media-breakpoint-down(lg) {
+    line-height: 2.75rem;
+  }
+  @include media-breakpoint-down(sm) {
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+  }
+}
+
+.btn-secondary {
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+}
+
+.swiper-slide {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: -4.125rem !important;
+  --swiper-pagination-bullet-size: 1rem;
+  --swiper-pagination-bullet-inactive-color: #857d7d;
+  --swiper-pagination-bullet-horizontal-gap: 0.25rem;
+  --swiper-pagination-color: white;
+  --swiper-pagination-bullet-active: 1rem;
+}
+
+.menu-btn-bg {
+  position: absolute;
+  @include media-breakpoint-up(xxl) {
+    top: calc(50% - 2rem);
+  }
+  @include media-breakpoint-down(xxl) {
+    bottom: -4.375rem;
+  }
+}
+
+.menu-prev-btn {
+  left: -7.1875rem;
+  @include media-breakpoint-down(xxl) {
+    left: -1.1875rem;
+  }
+}
+
+.menu-next-btn {
+  right: -7.1875rem;
+  @include media-breakpoint-down(xxl) {
+    right: -1.1875rem;
+  }
+}
+
+.slide-text {
+  color: #ffffff;
+
+  .slide-title {
+    line-height: 1.1;
+    margin-bottom: 0.625rem;
+  }
+
+  .slide-desc {
+    margin-bottom: 1.5625rem;
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,163 @@
+// Body
+$body-bg: #ffffff;
+$body-color: #222222;
+
+// Typography
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * .875 !default;
+
+$enable-responsive-font-sizes: true;
+
+$input-font-size: 1rem;
+
+// Color system
+$blue: #2f8be8;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #df2122;
+$orange: #EB5E28;
+$yellow: #ffcc00;
+$yellow_light: #fffbeb;
+$green: #439f49;
+$teal: #f2f2f2;
+$cyan: #68B3C8;
+$brown: #66615B;
+$dark_brown: #7d4e3c;
+
+$white: #fff !default;
+$gray-100: #f4f3ef !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$primary: #FADA8F !default;
+$secondary: #60C3D0 !default;
+$success: #0e783c !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+$gradient: linear-gradient(-90deg, rgba($white, .15), rgba($white, 0)) !default;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": #60C3D0,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "orange": $orange,
+  "dark-brown": $dark_brown,
+  "yellow-light": $yellow-light,
+);
+
+//Layout
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1176px,
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+$grid-row-columns: 6 !default;
+
+// Fonts
+$line-height-base: 1.2 !default;
+
+$h1-font-size: 6.25rem;
+$h2-font-size: 5rem;
+$h3-font-size: 4.375rem;
+$h4-font-size: 3.75rem;
+$h5-font-size: 3.125rem;
+$h6-font-size: 2.5rem;
+$h7-font-size: 1.75rem;
+
+$border-radius: .25rem !default;
+$border-radius-lg: .3rem !default;
+$border-radius-sm: .2rem !default;
+
+
+// Breadcrumbs
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-item-padding: .5rem;
+
+$breadcrumb-margin-bottom: 1rem;
+
+$breadcrumb-bg: none !default;
+$breadcrumb-divider-color: $gray-600;
+$breadcrumb-active-color: $gray-600;
+$breadcrumb-divider: quote("»");
+
+$breadcrumb-border-radius: $border-radius;
+
+
+$box-shadow-sm: 0 .125rem .25rem rgba($black, .075) !default;
+$box-shadow: 0 6px 10px -4px rgba(0, 0, 0, .15);
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175) !default;
+
+
+$btn-border-radius: .25rem;
+$btn-border-radius-lg: .3rem;
+$btn-border-radius-sm: .2rem;
+
+$btn-font-size-lg: 1.5rem;
+$btn-font-size: 1rem;
+
+// Forms
+$form-label-margin-bottom: .6rem;
+$input-bg: #ECF7F9;
+$input-padding-y: 0.8125rem;
+$input-padding-x: 1.25rem;
+$input-placeholder-color: #B9BFCB;
+// Range form
+$form-range-track-height: .125rem;
+$form-range-thumb-width: 1.75rem;
+$form-range-thumb-height: 1.75rem;
+$form-range-thumb-bg: white;
+// Cards
+$card-border-radius: 15px;
+$card-border-width:  0;
+
+
+:root {
+  --bs-primary: #FADA8F;
+  --bs-secondary: #f2f2f2;
+  --bs-success: #42A084;
+  --bs-info: #68B3C8;
+  --bs-warning: #F3BB45;
+  --bs-danger: #df2122;
+
+  --primary-bg-text-color: #fff;
+
+  --border-color: #66615B;
+
+  --font-size-medium: 1rem;
+  --font-size-normal: 14px;
+  --font-size-small: 12px;
+  --font-size-x-small: 11px;
+  --bs-nav-link-font-size: 1rem;
+}

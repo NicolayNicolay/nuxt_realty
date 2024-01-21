@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url("../fonts/Gilroy/Gilroy-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-bolditalic";
+  src: url("../fonts/Gilroy/Gilroy-bolditalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-medium";
+  src: url("../fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Gilroy-extrabold";
+  src: url("../fonts/Gilroy/Gilroy-Extrabold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.container{
+  --bs-gutter-x: 0;
+}
+a {
+  color: #8AE2EE;
+  text-decoration: none;
+  //box-shadow: 0 2px 2px 0 #00000026;
+}
+
+a:hover {
+  color: white;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: .6rem;
+}
+
+h1 {
+  line-height: 5.375rem;
+}
+
+h5 {
+  line-height: 50px;
+  font-weight: 800;
+  color: #323846;
+}
+
+h2, h4, h6 {
+  font-family: 'Gilroy', sans-serif;
+}
+h1, h3, h5{
+  font-family: 'Gilroy-extrabold', sans-serif;
+}
+h5{
+  font-family: 'Gilroy-extrabold', sans-serif;
+}
+h6{
+  font-family: 'Gilroy-medium', sans-serif;
+  letter-spacing: 2px;
+  line-height: 3rem;
+}
+
+.h7 {
+  font-size: 1.75rem;
+  line-height: 2.1rem;
+  font-weight: 300;
+  font-family: 'Gilroy', sans-serif;
+  color: #323846;
+}
+
+.text {
+  color: #5F6678;
+}

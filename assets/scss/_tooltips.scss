@@ -1,0 +1,52 @@
+.gs-app {
+  .v-popper--theme-dropdown {
+    .v-popper__arrow-outer {
+      border-color: transparent;
+    }
+
+    .v-popper__inner {
+      border: none;
+    }
+
+    .v-popper__arrow-inner {
+      border-width: 15px;
+    }
+
+    .v-popper__arrow-outer {
+      border-width: 15px;
+    }
+
+    &.v-popper__popper[data-popper-placement^=right] {
+      .v-popper__arrow-inner {
+        top: -8px;
+        left: -10px;
+      }
+    }
+
+    &.v-popper__popper[data-popper-placement^=left] {
+      .v-popper__arrow-inner {
+        top: -8px;
+      }
+    }
+
+    &.v-popper__popper[data-popper-placement^=top] {
+      .v-popper__arrow-inner {
+        left: -8px;
+      }
+    }
+
+    &.v-popper__popper[data-popper-placement^=bottom] {
+      .v-popper__arrow-inner {
+        top: -10px;
+        left: -8px;
+      }
+    }
+
+    &.v-popper__popper[data-popper-placement^=bottom-end] {
+      .v-popper__arrow-inner {
+        top: -10px;
+        left: -8px;
+      }
+    }
+  }
+}
